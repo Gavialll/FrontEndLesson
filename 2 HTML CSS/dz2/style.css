@@ -1,0 +1,179 @@
+@font-face { 
+    font-family: 'Lobster-Regular'; 
+    src: url('./beermoney/beermoney.woff2') format('woff2'), 
+         url('./beermoney/beermoney.woff2') format('woff'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    background-image: url(../dz2/africa_green_wall2-9.jpeg);
+}
+
+.setting{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: right;
+}
+
+.divHeder{
+    font-family: 'Lobster-Regular';
+    padding: 20px 30px;
+    background-color: #dcdcdc;
+    display: flex;
+    justify-content: space-between;
+    font-size: 3em;
+    color: red;
+    transition: 1s;
+}
+.marvel{
+    transition: 1s;
+}
+.marvel:hover{
+    color: black;
+    transform: scale(1.5);
+    transition: 1s;
+    border-bottom: 5px solid black;
+}
+
+.setting:hover {
+    transform: rotate(360deg);
+    transition: 10s;
+}
+
+.bigImg{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.bigImg1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: black;
+    border: 6px solid #dcdcdc;
+    transition: 1s;
+}
+
+.bigImg1:hover{
+    transition: 1s;
+    cursor: pointer;
+    border: 10px solid red;
+    transform: rotate(5deg);
+    border-radius: 25px;
+}
+
+.img1{
+    height: auto;
+    display: flex;
+    width: 20%;
+    border: 6px solid #dcdcdc;
+    transition: 1s;
+}
+
+.img{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+
+.text{
+    padding: 10px 20px 0px 20px;
+    font-family: 'Lobster-Regular';
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    border-bottom: 5px solid red;
+    width: auto;
+    height: auto;
+    background-color: white;
+    font-size: 1.5em;
+}
+
+.text1 {
+    padding: 10px 20px 20px 20px;
+    font-family: 'Lobster-Regular';
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    width: auto;
+    height: auto;
+    background-color: white;
+    font-size: 1.5em;
+    border-radius: 25px;
+}
+
+.text:hover{
+    border-bottom: 20px solid black;
+    transition: 1s;
+}
+
+.divPosition{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.divLeft{
+    width: 60%;
+    padding: 50px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.divRight{
+    padding:40px;
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.img1:hover{
+    transition: 1s;
+    cursor: pointer;
+    border: 6px solid red;
+    transform: rotate(-10deg);
+}
+
+.img1:hover ~ .img1{
+    transform: rotate(10deg);
+}
+
+.video {
+    display: none;
+}
+
+input[type=checkbox] {
+    display: none;
+    
+}
+     
+input[type=checkbox]:checked ~ .video {
+    display: block;
+} 
+
+input[type=checkbox]:checked ~ .bigImg1 {
+    display: none;
+} 
+
+
+/*
+justify-content
+align-items
+flex-direction
+order
+align-self
+flex-wrap
+flex-flow
+align-content
+*/
