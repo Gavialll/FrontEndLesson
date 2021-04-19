@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.back{
+    width: 80%;
+    height: 90%;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: 20px; 
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    height: 35%;
+    width: 100%;
+    background-color: rgb(201, 178, 149);
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.header1{
+    height: 80%;
+    width: 70%;
+    background-color: rgb(160, 132, 98);}
+
+.header2{
+    height: 50%;
+    width: 54%;}
+
+.divTable{
+    height: 15%;
+    width: 100%;
+    background-color: rgb(114, 100, 82);
+    display: flex;
+}
+
+.divMenu1{
+    height: 100%;
+    width: 25%;
+    background-color: rgb(189, 176, 160);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divMenu2{
+    height: 100%;
+    width: 25%;
+    background-color: rgb(44, 36, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divTable.one{
+    height: 100%;
+}
+
+.divMenu.left{
+    height: 100%;
+    width: 33.3%;
+    background-color: salmon;
+    display: flex;
+    flex-direction: column;
+}
+
+.divMenu2.center{
+    height: 100%;
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.divMenu1.right{
+    height: 100%;
+    width: 33.3%;
+    background-color: royalblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.divFoter{
+    height: 20%;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/* 
+justify-content
+align-items
+flex-direction
+order
+align-self
+flex-wrap
+flex-flow
+align-content */
+
+/* 
+    justify-content:space-around;
+    flex-direction:row;
+    order: 3;
+    align-self:flex-start;
+    flex-wrap:wrap;
+    align-content:center; */

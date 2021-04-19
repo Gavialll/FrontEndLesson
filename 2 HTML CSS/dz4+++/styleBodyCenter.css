@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.divA{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(58, 139, 89);
+    display: flex;
+    justify-content: center;
+}
+.divBCD{
+    width: 100%;
+    height: 100%;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+}
+
+.divC{
+    width: 100%;
+    height: 100%;
+    background-color:red;
+    display: flex;
+    flex-direction: column;
+}
+.divD{
+    width: 100%;
+    height: 100%;
+    background-color: rosybrown;
+    display: flex;
+    flex-direction: column;
+}
+
+.divD1{
+    width: 100%;
+    height: 25%;
+    background-color:rgb(57, 57, 88);
+    display: flex;
+    justify-content: center;
+    
+}
+.divD2{
+    width: 100%;
+    height: 25%;
+    background-color:rgb(20, 90, 63);
+    display: flex;
+    justify-content: center;
+}
+.divD3{
+    width: 100%;
+    height: 50%;
+    background-color:rgb(185, 134, 57);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.iphone{
+    height: 40%;
+    width: 50%;
+}
+
+.divC4C5{
+    width: 100%;
+    height: 25%;
+    background-color:blue;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.divC4{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(184, 108, 108);
+    display: flex;
+    justify-content: center;
+}
+.divC5{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(0, 255, 21);
+    display: flex;
+    justify-content: center;
+}
+
+.divB{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(59, 185, 122);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+
+}
+
+.divB1{
+    width: 50%;
+    height: 100%;
+    background-color:rgb(102, 11, 11);
+    display: flex;
+    justify-content: center;
+
+}
+
+.divB2{
+    width: 50%;
+    height: 50%;
+    background-color:rgb(0, 255, 136);
+    display: flex;
+    justify-content: center;
+}
+
+.divBB{
+    width: 100%;
+    height: 32%;
+    background-color:rgb(59, 185, 122);
+    display: flex;
+    justify-content: center;
+}
+
+.divBBB{
+    width: 100%;
+    height: 100%;
+    background-color: rosybrown;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* 
+#pond {
+    display: flex;
+}
+
+p {
+    align-self: flex-start;
+    align-self: center;
+} */
+
+
+
+
+
