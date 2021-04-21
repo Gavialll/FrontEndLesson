@@ -24,7 +24,7 @@
 .divHeder{
     font-family: 'Lobster-Regular';
     padding: 20px 30px;
-    background-color: #dcdcdc;
+    background-color: black;
     display: flex;
     justify-content: space-between;
     font-size: 3em;
@@ -35,10 +35,10 @@
     transition: 1s;
 }
 .marvel:hover{
-    color: black;
+    color: white;
     transform: scale(1.5);
     transition: 1s;
-    border-bottom: 5px solid black;
+    border-bottom: 5px solid white;
 }
 
 .setting:hover {
