@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.wrapper{
+    width: 65%;
+    height: auto;
+    padding: 20px, 10px;
+    margin: auto;
+}
+
+.inputBlock{
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+
+.inputBlock input{
+    width: 60%;
+    margin: 10px;
+    font-size: 1.3em;
+
+}
+
+.inputBlock button{
+    width: 20%;
+    height: 50px;
+    font-size: 1.3em;
+    border: 2px solid black;
+}
+
+.inputBlock button:hover{
+    font-weight: bold;
+    cursor: pointer;
+
+}
